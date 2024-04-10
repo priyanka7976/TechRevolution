@@ -55,7 +55,7 @@ const membersData = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
+    {/* <div>
       <h1 style={{ textAlign: 'center' }}>Hand Gesture Recognition</h1>
       <div className="members-grid">
         {membersData.map((member, index) => (
@@ -69,9 +69,9 @@ ReactDOM.render(
             details={member.details}
           />
         ))}
-      </div>
+      </div> */}
       <App />
-    </div>
+    {/* </div> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
