@@ -1,0 +1,40 @@
+/* Member.css */
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Gap between members */
+}
+
+.member-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.member-image {
+  max-width: 150px; /* Maximum width */
+  max-height: 150px; /* Maximum height */
+  width: auto; /* Allow width to adjust */
+  height: auto; /* Allow height to adjust */
+  /* border-radius: 50%; */
+  margin-right: 20px;
+}
+.member-info {
+  flex-grow: 1;
+}
+
+.member-name {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.member-position {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #666;
+}

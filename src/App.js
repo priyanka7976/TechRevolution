@@ -136,10 +136,8 @@ function App() {
 
     runHandpose();
 
-    return ( <
-        div className = "App" >
-        <
-        header className = "App-header" >
+    return ( <div className = "App" >
+        <header className = "App-header" >
         <
         Webcam ref = { webcamRef }
         style = {
@@ -180,9 +178,8 @@ function App() {
         }
         />
 
-        <
-        /header>  < /
-        div >
+        </header> 
+         </div >
     );
 }
 
