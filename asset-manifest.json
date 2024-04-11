@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TechRevolution/static/css/main.6aafe384.css",
+    "main.js": "/TechRevolution/static/js/main.9943907f.js",
+    "index.html": "/TechRevolution/index.html",
+    "main.6aafe384.css.map": "/TechRevolution/static/css/main.6aafe384.css.map",
+    "main.9943907f.js.map": "/TechRevolution/static/js/main.9943907f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aafe384.css",
+    "static/js/main.9943907f.js"
+  ]
+}
